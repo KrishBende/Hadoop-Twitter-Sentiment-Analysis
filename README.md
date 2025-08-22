@@ -1,4 +1,4 @@
-2# Hadoop Twitter Sentiment Analysis
+# Hadoop Twitter Sentiment Analysis
 
 This project demonstrates a comprehensive big data pipeline for performing sentiment analysis on Twitter data using Apache Hadoop and Spark. It covers data collection, cleaning, sentiment analysis, and visualization, showcasing a robust end-to-end solution for processing large-scale textual data.
 
@@ -13,7 +13,6 @@ This project demonstrates a comprehensive big data pipeline for performing senti
 
 ## Technologies & Tools
 
-*   **Python:** Primary programming language.
 *   **Apache Spark (PySpark):** For distributed data processing and sentiment analysis.
 *   **Apache Hadoop (HDFS):** For distributed storage of input and output data.
 *   **Pandas:** For initial data cleaning and manipulation.
@@ -22,8 +21,6 @@ This project demonstrates a comprehensive big data pipeline for performing senti
 *   **VADER Sentiment:** Rule-based sentiment analysis library, particularly effective for social media text.
 *   **Matplotlib & Seaborn:** For creating static, interactive, and animated visualizations in Python.
 *   **WordCloud:** For generating word cloud images from text data.
-*   **Jupyter Notebook:** For exploratory data analysis and development.
-*   **Git/GitHub:** For version control and project hosting.
 
 ## Project Structure
 
@@ -33,9 +30,7 @@ This project demonstrates a comprehensive big data pipeline for performing senti
 *   `pyspark_processing.py`: The core PySpark script for distributed sentiment analysis, text feature engineering, and visualization generation.
 *   `customer_service_kaggle_dataset.csv`: Sample dataset used for demonstration.
 *   `tweets.csv`: Cleaned dataset used as input for Spark processing.
-*   `visualisations/`: Directory containing generated sentiment distribution plots and word clouds.
-*   `artifacts/`: (Placeholder for any generated artifacts or models)
-*   `venv/`: Python virtual environment.
+*   `visualisations`: Directory containing generated sentiment distribution plots and word clouds.
 
 ## How to Run
 
@@ -67,7 +62,5 @@ This project demonstrates a comprehensive big data pipeline for performing senti
 6.  **View Visualizations:** Check the `visualisations/` directory for the generated plots.
 
 ## Visualizations
-
-(Include screenshots of `BlobSentimentDistribution.png`, `NegativeWordCloud.png`, `PositiveWordCloud.png`, `VaderSentimentDistribution.png` here once the project is run and images are generated.)
 
 ---
