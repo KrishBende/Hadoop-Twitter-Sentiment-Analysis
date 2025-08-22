@@ -60,7 +60,4 @@ This project demonstrates a comprehensive big data pipeline for performing senti
     ```
     This script will perform the sentiment analysis, generate visualizations (saved to `visualisations/`), and save the output to HDFS (`/twitter_data/output_sentiments`).
 6.  **View Visualizations:** Check the `visualisations/` directory for the generated plots.
-
-## Visualizations
-
 ---
